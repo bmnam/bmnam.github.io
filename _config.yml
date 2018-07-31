@@ -1,4 +1,5 @@
 # Site settings
+<<<<<<< HEAD
 title: 冰美娜盟的后花园 # 你的博客名字，可以定义修订
 header-img: "img/green.jpg"
 tagline: "cn"  
@@ -15,8 +16,26 @@ owner:
 # Data
 gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
 favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
+=======
+title: 读立写生
+header-img: "img/green.jpg"
+tagline: "cn"  
+description: "陈素封|读而立·写而生"  
+baseurl: ""
+url: "http://cnfeat"  
 
-douban_username:  # 你的豆瓣id
+# About/contact
+owner: 
+  name: " CnFeat"
+  email: CnFeat@gmail.com
+  bio: "写就是写的报酬"
+
+# Data
+gavatar: http://dreamofbook.qiniudn.com/Az..png
+favicon: img/favicon.png
+>>>>>>> parent of 4cf9b2b... update user setting
+
+douban_username:  
 twitter_username: 
 github_username: 
 facebook_username: 
@@ -43,19 +62,23 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+<<<<<<< HEAD
       author: "冰美娜盟的后花园" # 你的名字
+=======
+      author: "CnFeat"
+>>>>>>> parent of 4cf9b2b... update user setting
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
-  provider : disqus # 使用 disqus 评论模块，读者翻墙才能看见
+  provider : duoshuo
   duoshuo :
-    short_name :  # 填写你的 disqus id
+    short_name : 
   disqus :
-      short_name :  # 填写你的 disqus id
+      short_name : 
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:  # 填写你  google_analytics id
+google_analytics: 
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
